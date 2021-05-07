@@ -1,5 +1,5 @@
 {
-  "name": "socket.io-client",
+  "name": "ioclient-v1",
   "version": "1.7.4",
   "keywords": [
     "realtime",
@@ -62,26 +62,24 @@
     "test": "gulp test"
   },
   "contributors": [
-    {
-      "name": "Guillermo Rauch",
-      "email": "rauchg@gmail.com"
-    },
-    {
-      "name": "Arnout Kazemier",
-      "email": "info@3rd-eden.com"
-    },
-    {
-      "name": "Vladimir Dronnikov",
-      "email": "dronnikov@gmail.com"
-    },
-    {
-      "name": "Einar Otto Stangvik",
-      "email": "einaros@gmail.com"
-    }
+    "Guillermo Rauch <rauchg@gmail.com>",
+    "Arnout Kazemier <info@3rd-eden.com>",
+    "Vladimir Dronnikov <dronnikov@gmail.com>",
+    "Einar Otto Stangvik <einaros@gmail.com>"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Automattic/socket.io-client.git"
+    "url": "git+https://github.com/Automattic/socket.io-client.git"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "description": "[![Build Status](https://secure.travis-ci.org/socketio/socket.io-client.svg?branch=master)](http://travis-ci.org/socketio/socket.io-client) [![Dependency Status](https://david-dm.org/socketio/socket.io-client.svg)](https://david-dm.org/socketio/socket.io-client) [![devDependency Status](https://david-dm.org/socketio/socket.io-client/dev-status.svg)](https://david-dm.org/socketio/socket.io-client#info=devDependencies) ![NPM version](https://badge.fury.io/js/socket.io-client.svg) ![Downloads](http://img.shields.io/npm/dm/socket.io-client.svg?style=flat) [![](http://slack.socket.io/badge.svg?)](http://slack.socket.io)",
+  "bugs": {
+    "url": "https://github.com/Automattic/socket.io-client/issues"
+  },
+  "homepage": "https://github.com/Automattic/socket.io-client#readme",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "author": "ToanVQ"
 }

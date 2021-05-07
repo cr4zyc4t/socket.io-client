@@ -1,4 +1,5 @@
-
+# WHY THIS PACKAGE EXISTS?
+I forked this from socket.io-client@1.7.4 and re-published it under another name so I could use it in the same project which already have difference version of socket.io-client
 # socket.io-client
 
 [![Build Status](https://secure.travis-ci.org/socketio/socket.io-client.svg?branch=master)](http://travis-ci.org/socketio/socket.io-client)
